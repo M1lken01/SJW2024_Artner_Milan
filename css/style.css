@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
+:root {
+  --vilagoskek: #1283b9;
+  --sotetkek: #06435f;
+}
+/*font-family: "Marhey", sans-serif;*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 10px black;
+}
+
+h2 {
+  font-family: 'Marhey', sans-serif;
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: 'Marhey', sans-serif;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+.font {
+  font-family: 'Marhey', sans-serif;
+}
+
+.header {
+  height: 400px;
+  background-image: url('../img/balaton_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: var(--sotetkek);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.footer p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  fill: var(--sotetkek);
+  z-index: -1;
+}
